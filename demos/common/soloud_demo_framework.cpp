@@ -27,7 +27,7 @@
 
 #include <stdlib.h>
 #if defined(_MSC_VER)
-#include "SDL.h"
+#include <SDL2/SDL.h>
 #include <windows.h>
 #include "GL/glew.h"
 #else
