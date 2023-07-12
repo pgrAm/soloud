@@ -46,8 +46,8 @@
     <Filter Include="src\backend">
       <UniqueIdentifier>{9192D7F5-FD47-50EB-863C-4AC2F2F046EF}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\backend\sdl">
-      <UniqueIdentifier>{70DCC465-DC67-322A-E578-B51E51838E2A}</UniqueIdentifier>
+    <Filter Include="src\backend\sdl2_static">
+      <UniqueIdentifier>{E9F2B59B-552A-FE32-5E34-6256CAEA242C}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\backend\null">
       <UniqueIdentifier>{48F55D1E-34EE-7C70-5D20-62F549785C7C}</UniqueIdentifier>
@@ -219,17 +219,8 @@
     <ClCompile Include="..\..\src\core\soloud_thread.cpp">
       <Filter>src\core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\backend\sdl\soloud_sdl1.cpp">
-      <Filter>src\backend\sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\backend\sdl\soloud_sdl1_dll.c">
-      <Filter>src\backend\sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\backend\sdl\soloud_sdl2.cpp">
-      <Filter>src\backend\sdl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\backend\sdl\soloud_sdl2_dll.c">
-      <Filter>src\backend\sdl</Filter>
+    <ClCompile Include="..\..\src\backend\sdl2_static\soloud_sdl2_static.cpp">
+      <Filter>src\backend\sdl2_static</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\backend\null\soloud_null.cpp">
       <Filter>src\backend\null</Filter>

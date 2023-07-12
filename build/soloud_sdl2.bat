@@ -1,1 +1,1 @@
-genie --with-sdl2-only --platform=x64 vs2022
+genie --with-sdl2static-only --platform=x64 vs2022
